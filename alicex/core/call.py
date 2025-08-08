@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from alicex import LOGGER, YouTube, app
-from alicex.misc import db
-from alicex.utils.database import (
+from SaraXMusic import LOGGER, YouTube, app
+from SaraXMusic import db
+from SaraXMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from alicex.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from alicex.utils.exceptions import AssistantErr
-from alicex.utils.formatters import check_duration, seconds_to_min, speed_converter
-from alicex.utils.inline.play import stream_markup
-from alicex.utils.stream.autoclear import auto_clean
-from alicex.utils.thumbnails import gen_thumb
+from SaraXMusic.utils.exceptions import AssistantErr
+from SaraXMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from SaraXMusic.utils.inline.play import stream_markup
+from SaraXMusic.utils.stream.autoclear import auto_clean
+from SaraXMusic.utils.thumbnails import gen_thumb
 from strings import get_string
 
 autoend = {}
@@ -599,3 +599,4 @@ class Call(PyTgCalls):
 
 
 alice = Call()
+
