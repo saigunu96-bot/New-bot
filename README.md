@@ -1,7 +1,7 @@
-<h1 align="center">🎵 Alice Music Bot 🎵</h1>
+<h1 align="center">🎵 SaraXMusic Bot 🎵</h1>
 
 <p align="center">
-  <img src="https://graph.org/file/f586172fe40a0b5d0b0df.jpg" alt="Alice Music Logo" width="600" height="350">
+  <img src="[https://graph.org/file/f586172fe40a0b5d0b0df.jpg](https://graph.org/file/b3b9e4502dd065c5154f4-9ba46834e12af655bc.jpg)" alt="SaraXMusic Logo" width="600" height="350">
 </p>
 
 <p align="center">
